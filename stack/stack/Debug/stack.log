@@ -1,0 +1,23 @@
+﻿生成启动时间为 2016-3-31 20:23:13。
+     1>项目“E:\code\stack\stack\stack.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\stack.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         d:\vs2010\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt statck.c
+         statck.c
+     1>e:\code\stack\stack\statck.c(57): warning C4996: 'gets': This function or variable may be unsafe. Consider using gets_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vc\include\stdio.h(277) : 参见“gets”的声明
+       Link:
+         d:\vs2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\code\stack\Debug\stack.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\stack.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\code\stack\Debug\stack.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\code\stack\Debug\stack.lib" /MACHINE:X86 Debug\statck.obj
+         LINK : 没有找到 E:\code\stack\Debug\stack.exe 或上一个增量链接没有生成它；正在执行完全链接
+         stack.vcxproj -> E:\code\stack\Debug\stack.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\code\stack\Debug\stack.exe;#1" /manifest Debug\stack.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Debug\stack.unsuccessfulbuild”。
+         正在对“Debug\stack.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\code\stack\stack\stack.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.35

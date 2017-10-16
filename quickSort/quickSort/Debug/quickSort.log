@@ -1,0 +1,14 @@
+﻿生成启动时间为 2016-3-30 16:07:49。
+     1>项目“E:\code\quickSort\quickSort\quickSort.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Debug\quickSort.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         所有输出均为最新。
+       Link:
+         d:\vs2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\code\quickSort\Debug\quickSort.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\quickSort.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\code\quickSort\Debug\quickSort.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\code\quickSort\Debug\quickSort.lib" /MACHINE:X86 Debug\quickSort.obj
+     1>LINK : fatal error LNK1104: 无法打开文件“E:\code\quickSort\Debug\quickSort.exe”
+     1>已完成生成项目“E:\code\quickSort\quickSort\quickSort.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.07

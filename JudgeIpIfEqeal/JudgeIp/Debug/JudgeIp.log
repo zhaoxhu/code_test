@@ -1,0 +1,30 @@
+﻿生成启动时间为 2016-3-10 17:03:21。
+     1>项目“C:\Documents and Settings\zhaoxh\桌面\JudgeIp\JudgeIp\JudgeIp.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\JudgeIp.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         d:\vs2010\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt JudgeIp.c
+         JudgeIp.c
+     1>c:\documents and settings\zhaoxh\桌面\judgeip\judgeip\judgeip.c(101): warning C4013: “memset”未定义；假设外部返回 int
+     1>c:\documents and settings\zhaoxh\桌面\judgeip\judgeip\judgeip.c(154): warning C4133: “函数”: 从“int [100]”到“char *”的类型不兼容
+     1>c:\documents and settings\zhaoxh\桌面\judgeip\judgeip\judgeip.c(156): warning C4133: “函数”: 从“int [100]”到“char *”的类型不兼容
+     1>c:\documents and settings\zhaoxh\桌面\judgeip\judgeip\judgeip.c(158): warning C4133: “函数”: 从“int [100]”到“char *”的类型不兼容
+     1>c:\documents and settings\zhaoxh\桌面\judgeip\judgeip\judgeip.c(159): warning C4133: “函数”: 从“int [100]”到“char *”的类型不兼容
+     1>c:\documents and settings\zhaoxh\桌面\judgeip\judgeip\judgeip.c(159): warning C4133: “函数”: 从“int [100]”到“char *”的类型不兼容
+     1>c:\documents and settings\zhaoxh\桌面\judgeip\judgeip\judgeip.c(159): warning C4133: “函数”: 从“int [100]”到“char *”的类型不兼容
+     1>c:\documents and settings\zhaoxh\桌面\judgeip\judgeip\judgeip.c(78): warning C4715: “JudgeIp”: 不是所有的控件路径都返回值
+     1>c:\documents and settings\zhaoxh\桌面\judgeip\judgeip\judgeip.c(140): warning C4715: “CheckNetSegment”: 不是所有的控件路径都返回值
+       Link:
+         d:\vs2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Documents and Settings\zhaoxh\桌面\JudgeIp\Debug\JudgeIp.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\JudgeIp.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Documents and Settings\zhaoxh\桌面\JudgeIp\Debug\JudgeIp.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Documents and Settings\zhaoxh\桌面\JudgeIp\Debug\JudgeIp.lib" /MACHINE:X86 Debug\JudgeIp.obj
+         LINK : 没有找到 C:\Documents and Settings\zhaoxh\桌面\JudgeIp\Debug\JudgeIp.exe 或上一个增量链接没有生成它；正在执行完全链接
+         JudgeIp.vcxproj -> C:\Documents and Settings\zhaoxh\桌面\JudgeIp\Debug\JudgeIp.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Documents and Settings\zhaoxh\桌面\JudgeIp\Debug\JudgeIp.exe;#1" /manifest Debug\JudgeIp.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Debug\JudgeIp.unsuccessfulbuild”。
+         正在对“Debug\JudgeIp.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Documents and Settings\zhaoxh\桌面\JudgeIp\JudgeIp\JudgeIp.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.45

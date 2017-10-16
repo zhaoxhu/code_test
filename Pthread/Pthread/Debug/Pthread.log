@@ -1,0 +1,28 @@
+﻿生成启动时间为 2016-3-10 13:35:48。
+     1>项目“E:\code\Pthread\Pthread\Pthread.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Debug\Pthread.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         d:\vs2010\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt Pthread.c
+         Pthread.c
+     1>e:\code\pthread\pthread\pthread.c(21): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vc\include\string.h(110) : 参见“strcat”的声明
+     1>e:\code\pthread\pthread\pthread.c(35): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vc\include\string.h(110) : 参见“strcat”的声明
+     1>e:\code\pthread\pthread\pthread.c(49): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vc\include\string.h(110) : 参见“strcat”的声明
+     1>e:\code\pthread\pthread\pthread.c(60): warning C4047: “函数”:“int”与“void *”的间接级别不同
+     1>e:\code\pthread\pthread\pthread.c(60): warning C4024: “memset”: 形参和实参 2 的类型不同
+       Link:
+         d:\vs2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\code\Pthread\Debug\Pthread.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Pthread.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\code\Pthread\Debug\Pthread.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\code\Pthread\Debug\Pthread.lib" /MACHINE:X86 Debug\Pthread.obj
+         Pthread.vcxproj -> E:\code\Pthread\Debug\Pthread.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\code\Pthread\Debug\Pthread.exe;#1" /manifest Debug\Pthread.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Debug\Pthread.unsuccessfulbuild”。
+         正在对“Debug\Pthread.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\code\Pthread\Pthread\Pthread.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.85

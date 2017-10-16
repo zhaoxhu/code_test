@@ -1,0 +1,34 @@
+﻿生成启动时间为 2016-3-23 13:57:32。
+     1>项目“E:\code\pointGame24\pointGame24\pointGame24.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\pointGame24.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         d:\vs2010\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt main.c pointGame24.c
+         pointGame24.c
+         main.c
+     1>e:\code\pointgame24\pointgame24\main.c(10): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vc\include\stdio.h(304) : 参见“scanf”的声明
+     1>e:\code\pointgame24\pointgame24\main.c(23): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>e:\code\pointgame24\pointgame24\main.c(24): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>e:\code\pointgame24\pointgame24\main.c(25): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>e:\code\pointgame24\pointgame24\main.c(26): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>e:\code\pointgame24\pointgame24\main.c(33): warning C4244: “函数”: 从“int”转换到“float”，可能丢失数据
+     1>e:\code\pointgame24\pointgame24\main.c(33): warning C4244: “函数”: 从“int”转换到“float”，可能丢失数据
+     1>e:\code\pointgame24\pointgame24\main.c(33): warning C4244: “函数”: 从“int”转换到“float”，可能丢失数据
+     1>e:\code\pointgame24\pointgame24\main.c(33): warning C4244: “函数”: 从“int”转换到“float”，可能丢失数据
+         正在生成代码...
+       Link:
+         d:\vs2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\code\pointGame24\Debug\pointGame24.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\pointGame24.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\code\pointGame24\Debug\pointGame24.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\code\pointGame24\Debug\pointGame24.lib" /MACHINE:X86 Debug\main.obj
+         Debug\pointGame24.obj
+         LINK : 没有找到 E:\code\pointGame24\Debug\pointGame24.exe 或上一个增量链接没有生成它；正在执行完全链接
+         pointGame24.vcxproj -> E:\code\pointGame24\Debug\pointGame24.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\code\pointGame24\Debug\pointGame24.exe;#1" /manifest Debug\pointGame24.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Debug\pointGame24.unsuccessfulbuild”。
+         正在对“Debug\pointGame24.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\code\pointGame24\pointGame24\pointGame24.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.65

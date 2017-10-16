@@ -1,0 +1,24 @@
+﻿生成启动时间为 2016-3-15 10:24:20。
+     1>项目“E:\code\scaleConvert\scaleConvert\scaleConvert.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Debug\scaleConvert.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         d:\vs2010\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt scaleConvert.c
+         scaleConvert.c
+     1>e:\code\scaleconvert\scaleconvert\scaleconvert.c(65): warning C4244: “+=”: 从“double”转换到“int”，可能丢失数据
+     1>e:\code\scaleconvert\scaleconvert\scaleconvert.c(86): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 d:\vs2010\vc\include\stdlib.h(867) : 参见“itoa”的声明
+       Link:
+         d:\vs2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\code\scaleConvert\Debug\scaleConvert.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\scaleConvert.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\code\scaleConvert\Debug\scaleConvert.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\code\scaleConvert\Debug\scaleConvert.lib" /MACHINE:X86 Debug\scaleConvert.obj
+         LINK : 没有找到 E:\code\scaleConvert\Debug\scaleConvert.exe 或上一个增量链接没有生成它；正在执行完全链接
+         scaleConvert.vcxproj -> E:\code\scaleConvert\Debug\scaleConvert.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\code\scaleConvert\Debug\scaleConvert.exe;#1" /manifest Debug\scaleConvert.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Debug\scaleConvert.unsuccessfulbuild”。
+         正在对“Debug\scaleConvert.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\code\scaleConvert\scaleConvert\scaleConvert.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.69
